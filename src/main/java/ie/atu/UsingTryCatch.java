@@ -6,8 +6,7 @@ public class UsingTryCatch
 {
     public static void main(String[] args)
     {
-        int y = 1;
-        while (y == 1)
+        while (true)
         {
             try
             {
@@ -24,7 +23,7 @@ public class UsingTryCatch
                 if (myNum >= 0 && myNum <= 9)
                 {
                     System.out.println("You inputted " + myNum);
-                    y = 0;
+                    break;
                 }
                 else
                 {
